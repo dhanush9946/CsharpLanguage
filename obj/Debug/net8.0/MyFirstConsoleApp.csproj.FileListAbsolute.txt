@@ -12,3 +12,4 @@ C:\Users\dhanu\source\repos\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net8.0
 C:\Users\dhanu\source\repos\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net8.0\MyFirstConsoleApp.pdb
 C:\Users\dhanu\source\repos\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net8.0\MyFirstConsoleApp.genruntimeconfig.cache
 C:\Users\dhanu\source\repos\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net8.0\ref\MyFirstConsoleApp.dll
+C:\Users\dhanu\source\repos\MyFirstConsoleApp\MyFirstConsoleApp\obj\Debug\net8.0\MyFirstConsoleApp.sourcelink.json
