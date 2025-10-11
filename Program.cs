@@ -1,12 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-int a = 10;
-int b = 20;
-Console.WriteLine(a+b);
-Console.WriteLine(b-a);
-float mul = a * b;
-Console.WriteLine(mul);
-float div=a / b;
-Console.WriteLine(div);
-int modulus = a % b;
-Console.WriteLine(modulus);
+namespace MyFirstConsoleApp
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            Program2.Main2();
+            IfElse.Main3();
+            IfElseIfElse.Main4();
+            SwitchCase.Main5();
+        } 
+    }
+    
+}
