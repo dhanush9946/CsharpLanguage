@@ -19,7 +19,9 @@ namespace MyFirstConsoleApp
             //ForEach.Main7();
             //ParallelForEach.Main8();
             // While.Main9();
-            DoWhile.Main10();
+            //DoWhile.Main10();
+            //Function.Main11();
+            Add.Main20();
         } 
     }
     
