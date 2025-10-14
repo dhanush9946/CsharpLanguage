@@ -22,7 +22,20 @@ namespace MyFirstConsoleApp
             //DoWhile.Main10();
             //Function.Main11();
             //Add.Main20();
-            Array.Main15();
+            //Array.Main15();
+            // Prime.Main16();
+
+            bool result = Prime.Main16();
+            if(result)
+            {
+                Console.WriteLine("It is Prime");
+            }
+            else
+            {
+                {
+                    Console.WriteLine("It is not a Prime Number");
+                }
+            }
         } 
     }
     
