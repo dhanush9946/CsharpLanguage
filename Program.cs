@@ -24,18 +24,19 @@ namespace MyFirstConsoleApp
             //Add.Main20();
             //Array.Main15();
             // Prime.Main16();
+            Diamond.Main17();
 
-            bool result = Prime.Main16();
-            if(result)
-            {
-                Console.WriteLine("It is Prime");
-            }
-            else
-            {
-                {
-                    Console.WriteLine("It is not a Prime Number");
-                }
-            }
+            //bool result = Prime.Main16();
+            //if(result)
+            //{
+            //    Console.WriteLine("It is Prime");
+            //}
+            //else
+            //{
+            //    {
+            //        Console.WriteLine("It is not a Prime Number");
+            //    }
+            //}
         } 
     }
     
