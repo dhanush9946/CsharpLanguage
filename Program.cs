@@ -1,9 +1,8 @@
 ﻿
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
 
 namespace MyFirstConsoleApp
 {
@@ -24,7 +23,34 @@ namespace MyFirstConsoleApp
             //Add.Main20();
             //Array.Main15();
             // Prime.Main16();
-            Diamond.Main17();
+            //Diamond.Main17();
+            //Car.Main18();
+            //Inheritance.Main19();
+            //Polymorphism.Main20();
+            //Abstraction.Main21();'
+            //Encapsulation.Main22();
+            //ObjCreation.Program.Main23();
+            //SingleInheritance.Main24();
+            //MultilevelInheritance.Main25();
+            // HierarchicalInheritance.Main26();
+            //MultipleInheritance.Main27();
+            //Hybrid.Main29();
+            //Encapsulation2.Main30();
+            //Review.Main50();
+            Program5.Main56();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             //bool result = Prime.Main16();
             //if(result)
@@ -37,7 +63,12 @@ namespace MyFirstConsoleApp
             //        Console.WriteLine("It is not a Prime Number");
             //    }
             //}
-        } 
+            //    Dictionary<int, string> students = new Dictionary<int, string>();
+            //    students.Add(1, "Dhanush");
+            //    students.Add(2, "Athul");
+            //    Console.WriteLine(students[1]);
+            //}
+        }
     }
     
 }

@@ -6,17 +6,25 @@ using System.Threading.Tasks;
 
 namespace MyFirstConsoleApp
 {
+    class Adding
+    {
+        public int a;
+        public int b;
+
+        public  int Add(int a,int b)
+        {
+            return a + b;
+
+        }
+    }
    public class Program3
     {
         public static void Main36()
         {
-            Console.WriteLine("Enter the first number:");
-           int a =Convert.ToInt32( Console.ReadLine());
-
-            Console.WriteLine("Enter the second number:");
-            int b = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(a + b);
+            Adding add=new Adding();
+            add.a = 1;
+            add.b = 2;
+            Console.WriteLine(add.Add(1,2));
         }
     }
     
