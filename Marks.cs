@@ -8,12 +8,23 @@ namespace MyFirstConsoleApp
 {
     internal class Marks
     {
+        class Students
+        {
+            public string Name { get; set; }
+            public int Mark { get; set; }
+        }
         public static void Main46()
         {
-            List<int> marks = new List<int>() { 2, 3, 5, 6, 55, 33, 32, 56, };
+            List<Students> marks = new List<Students>()
+            {
+                new Students {Name="Dhanush",Mark=90},
+                new Students{Name="john",Mark=36}
 
-            var max = marks.OrderByDescending(i => i).First();
-            Console.WriteLine(max);
+            };
+            var high = marks.OrderByDescending(i => i).First();
+            Console.WriteLine("Higher mark is:{high}");
+
+            
 
         }
     }
