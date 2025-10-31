@@ -10,7 +10,7 @@ namespace MyFirstConsoleApp
     {
         class Students
         {
-            public string Name { get; set; }
+            public string? Name { get; set; }
             public int Mark { get; set; }
         }
         public static void Main46()
@@ -21,8 +21,8 @@ namespace MyFirstConsoleApp
                 new Students{Name="john",Mark=36}
 
             };
-            var high = marks.OrderByDescending(i => i).First();
-            Console.WriteLine("Higher mark is:{high}");
+            var high = marks.OrderByDescending(i => i.Mark).First();
+            Console.WriteLine($"Higher mark is:{high.Mark}");
 
             
 

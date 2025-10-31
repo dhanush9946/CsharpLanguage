@@ -38,7 +38,7 @@ namespace MyFirstConsoleApp
             //Encapsulation2.Main30();
             //Review.Main50();
             //Program5.Main56();
-           // Marks.Main46();
+            Marks.Main46();
 
 
 
